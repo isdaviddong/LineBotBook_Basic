@@ -31,6 +31,9 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.buttonSendButtonTemplate = new System.Windows.Forms.Button();
+            this.buttonSendConfirmTemplate = new System.Windows.Forms.Button();
+            this.buttonSendCarouselTemplate = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -66,11 +69,47 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // buttonSendButtonTemplate
+            // 
+            this.buttonSendButtonTemplate.Font = new System.Drawing.Font("PMingLiU", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.buttonSendButtonTemplate.Location = new System.Drawing.Point(653, 66);
+            this.buttonSendButtonTemplate.Name = "buttonSendButtonTemplate";
+            this.buttonSendButtonTemplate.Size = new System.Drawing.Size(467, 76);
+            this.buttonSendButtonTemplate.TabIndex = 3;
+            this.buttonSendButtonTemplate.Text = "發送ButtonTemplate";
+            this.buttonSendButtonTemplate.UseVisualStyleBackColor = true;
+            this.buttonSendButtonTemplate.Click += new System.EventHandler(this.buttonSendButtonTemplate_Click);
+            // 
+            // buttonSendConfirmTemplate
+            // 
+            this.buttonSendConfirmTemplate.Font = new System.Drawing.Font("PMingLiU", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.buttonSendConfirmTemplate.Location = new System.Drawing.Point(653, 229);
+            this.buttonSendConfirmTemplate.Name = "buttonSendConfirmTemplate";
+            this.buttonSendConfirmTemplate.Size = new System.Drawing.Size(467, 76);
+            this.buttonSendConfirmTemplate.TabIndex = 4;
+            this.buttonSendConfirmTemplate.Text = "發送ConfirmTemplate";
+            this.buttonSendConfirmTemplate.UseVisualStyleBackColor = true;
+            this.buttonSendConfirmTemplate.Click += new System.EventHandler(this.buttonSendConfirmTemplate_Click);
+            // 
+            // buttonSendCarouselTemplate
+            // 
+            this.buttonSendCarouselTemplate.Font = new System.Drawing.Font("PMingLiU", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.buttonSendCarouselTemplate.Location = new System.Drawing.Point(653, 380);
+            this.buttonSendCarouselTemplate.Name = "buttonSendCarouselTemplate";
+            this.buttonSendCarouselTemplate.Size = new System.Drawing.Size(467, 76);
+            this.buttonSendCarouselTemplate.TabIndex = 5;
+            this.buttonSendCarouselTemplate.Text = "發送CarouselTemplate";
+            this.buttonSendCarouselTemplate.UseVisualStyleBackColor = true;
+            this.buttonSendCarouselTemplate.Click += new System.EventHandler(this.buttonSendCarouselTemplate_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1159, 651);
+            this.Controls.Add(this.buttonSendCarouselTemplate);
+            this.Controls.Add(this.buttonSendConfirmTemplate);
+            this.Controls.Add(this.buttonSendButtonTemplate);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -85,6 +124,9 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button buttonSendButtonTemplate;
+        private System.Windows.Forms.Button buttonSendConfirmTemplate;
+        private System.Windows.Forms.Button buttonSendCarouselTemplate;
     }
 }
 
