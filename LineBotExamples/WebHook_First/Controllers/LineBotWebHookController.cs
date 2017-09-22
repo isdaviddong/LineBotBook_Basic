@@ -13,7 +13,7 @@ namespace WebHook_First.Controllers
         [HttpPost]
         public IHttpActionResult POST()
         {
-            string ChannelAccessToken = "Omj1rwtDh+eP0wb+KbcbLF0+tpdrlDz7G+cfXXvmrf4W8gBz7x9VNgyApN62ZY31muFeXll6qFCKrbsJyfYxgt6qqxoKZ7ygxdWIHFkIudhxrzj46W2tXjY+djMfTVI1RrYfNptLOjQA7ARXs2JRHAdB04t89/1O/w1cDnyilFU=";
+            string ChannelAccessToken = "改成自己的token";
     
             try
             {
