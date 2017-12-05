@@ -92,6 +92,7 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\LineBotWebHookController.cs" />
+    <Compile Include="Controllers\MsgTypeWebHookController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -99,6 +100,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\test-linebotbook - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\test-linebotbook - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\test20170819 - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\test20170819 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
