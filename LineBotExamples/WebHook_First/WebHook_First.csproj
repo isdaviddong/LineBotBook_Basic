@@ -44,7 +44,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="LineBot, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\LineBotSDK.0.6.3\lib\net45\LineBot.dll</HintPath>
+      <HintPath>..\packages\LineBotSDK.0.6.4-alpha\lib\net45\LineBot.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -95,6 +95,7 @@
     <Compile Include="Controllers\ContentProcessController.cs" />
     <Compile Include="Controllers\LineBotWebHookController.cs" />
     <Compile Include="Controllers\MsgTypeWebHookController.cs" />
+    <Compile Include="Controllers\WebHookStandardController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

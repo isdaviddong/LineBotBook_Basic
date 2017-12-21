@@ -13,7 +13,7 @@ namespace WebHook_First.Controllers
         [HttpPost]
         public IHttpActionResult POST()
         {
-            string ChannelAccessToken  = "P7zUQDGHjRoylGzd8XnjPEm7I8ByahO40016NQ9e8arPtiW7l/MgvRD9tPyAUtXGEezeNqTbN7dhvztt00YK9wapXE3Q+RSff/JDZ1f9yHEESd9wvcNyi50S/nwQXSK1RSMbHeThXi3UJRcvf4nFXwdB04t89/1O/w1cDnyilFU=";
+            string ChannelAccessToken  = "!!!!! 改成自己的ChannelAccessToken !!!!!";
             string path = System.Web.HttpContext.Current.Request.MapPath("/temp/");
             string filename, fileURL;
             byte[] fileBody;
