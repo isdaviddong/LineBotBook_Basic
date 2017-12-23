@@ -88,6 +88,7 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="temp\1379236192_file_edit.png" />
+    <Content Include="Views\TestTemplateMessage.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -95,11 +96,19 @@
     <Compile Include="Controllers\ContentProcessController.cs" />
     <Compile Include="Controllers\LineBotWebHookController.cs" />
     <Compile Include="Controllers\MsgTypeWebHookController.cs" />
+    <Compile Include="Controllers\TestPostbackController.cs" />
     <Compile Include="Controllers\WebHookStandardController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\TestTemplateMessage.aspx.cs">
+      <DependentUpon>TestTemplateMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\TestTemplateMessage.aspx.designer.cs">
+      <DependentUpon>TestTemplateMessage.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
