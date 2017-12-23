@@ -28,7 +28,7 @@ namespace WebHook_First.Controllers
             catch (Exception ex)
             {
                 //回覆訊息
-                this.PushMessage("AdminUserId", "發生錯誤:\n" + ex.Message);
+                this.PushMessage("!!!改成你的AdminUserId!!!", "發生錯誤:\n" + ex.Message);
                 //response OK
                 return Ok();
             }
