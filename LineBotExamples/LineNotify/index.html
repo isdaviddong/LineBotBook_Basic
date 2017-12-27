@@ -1,0 +1,21 @@
+﻿<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script>
+        function Auth() {
+            var URL = 'https://notify-bot.line.me/oauth/authorize?';
+            URL += 'response_type=code';
+            URL += '&client_id=FkAzcte6WjGR1s2PhqEP8b';
+            URL += '&redirect_uri=http://localhost:49100/Callback.aspx';
+            URL += '&scope=notify';
+            URL += '&state=abcde';
+            //導引到LineNotify
+            window.location.href = URL;
+        }
+    </script>
+</head>
+<body>
+    <button onclick="Auth();">點選這裡連結到LineNotify</button>
+</body>
+</html>
