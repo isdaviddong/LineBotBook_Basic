@@ -1,0 +1,21 @@
+﻿<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script>
+        function Auth() {
+            var URL = 'https://access.line.me/oauth2/v2.1/authorize?';
+            URL += 'response_type=code';
+            URL += '&client_id=1354015473';  //TODO:請更正為你自己的 client_id
+            URL += '&redirect_uri=http://localhost:58155/Callback.aspx';  //TODO:請更正為你自己的 callback url
+            URL += '&scope=openid%20profile';
+            URL += '&state=abcde';
+            //導引到Line Login頁面
+            window.location.href = URL;
+        }
+    </script>
+</head>
+<body>
+    <button onclick="Auth();">點選這裡連結到Line Login</button>
+</body>
+</html>

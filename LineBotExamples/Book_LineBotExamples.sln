@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinebotFirst", "LinebotFirst\LinebotFirst.csproj", "{CC6B15C0-7E53-4697-B77C-6BAD581ADDDB}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_JustTest", "_JustTest\_JustTest.csproj", "{51F34B4B-3CEB-4EF5-AFA0-68E52A871D33}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LineNotify", "LineNotify\LineNotify.csproj", "{FF8FF194-D28F-4F02-9414-0101AA3970F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LineLoginV2", "LineLoginV2\LineLoginV2.csproj", "{6B6011E0-053C-486A-A8BE-918AA8B8EC4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +35,15 @@ Global
 		{FF8FF194-D28F-4F02-9414-0101AA3970F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF8FF194-D28F-4F02-9414-0101AA3970F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF8FF194-D28F-4F02-9414-0101AA3970F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B6011E0-053C-486A-A8BE-918AA8B8EC4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B6011E0-053C-486A-A8BE-918AA8B8EC4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B6011E0-053C-486A-A8BE-918AA8B8EC4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B6011E0-053C-486A-A8BE-918AA8B8EC4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7C02B76-5D89-4520-8424-6716F4653546}
 	EndGlobalSection
 EndGlobal
